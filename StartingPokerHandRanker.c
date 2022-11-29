@@ -16,7 +16,7 @@ void merge(int *arr, int start, int mid, int end);
 void swap(int *ptr1, int *ptr2);
 void main(){
     char *filename = "";
-    FILE *fp = fopen("C:\\Users\\marco\\OneDrive\\Documents\\Programming Files\\C\\Poker\\Output.txt", "w");
+    //FILE *fp = fopen(FILL THIS IN WITH THE TEXT FILE YOU WANT TO OUTPUT TO, "w");
     all_starting_hands(fp);
     fclose(fp);
 }
